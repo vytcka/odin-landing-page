@@ -29,6 +29,7 @@ a, .secondary-text {
     display: flex;
     flex-direction: column;
     flex: 1;
+    min-width: 1000px;
 }
 
 .header, .footer, .website-description {
@@ -63,7 +64,6 @@ a, .secondary-text {
 .description {
     flex: 1;
     height: 200px;
-    min-width: 300px;
 }
 
 .image-placeholder {
